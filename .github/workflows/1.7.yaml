@@ -54,7 +54,7 @@ jobs:
           repository: calyptia/fluent-bit-ci
           path: ci
 
-      - uses: frabert/replace-string-action@master
+      - uses: frabert/replace-string-action@v2.3
         id: formatted_release
         with:
           pattern: '(.*)\.(.*)$'
